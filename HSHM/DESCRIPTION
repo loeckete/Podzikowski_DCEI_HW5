@@ -1,0 +1,12 @@
+Package: HSHM
+Type: Package
+Title: Hot spot and hot moment package
+Version: 0.1.0
+Authors@R: person(given = "Laura",family = "Podzikowski", 
+       email = "lpodziko@ku.edu", role = c("aut","cre"))
+Depends: R(>= 3.4.2)
+Description: Creates category variables for describing hot spots and hot moments and calcuates a hot spot or hot moment Index.
+License: GPL (>=2)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
