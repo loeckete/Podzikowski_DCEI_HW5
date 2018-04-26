@@ -29,7 +29,8 @@ N<-function(x){length(x)}
 #' @examples
 #' x<-c(1,2,3,4,5,6,7,8,9,10,11)
 #' UF(x)
-
+##***terry
+# You may want to include the option to return a named and unnamed vector
 UF<-function(x,n=1.5){
   #UF stands for upper fence, from boxplot method for ident. outliers
   UF<-((quantile(x,0.75)-quantile(x,0.25))*n)+quantile(x,0.75)
